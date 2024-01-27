@@ -1,7 +1,7 @@
 # Video transcriber
 How to auto generate subtitles for your video?
 ## If it is public video
-You can send it to youtube and they use `subtitles` button or website like https://youtubetrascript.com (which uses this button).
+You can send it to youtube and they use `subtitles` button or website like https://youtubetranscript.com (which uses this button).
 And paid API such as Google/Amazon, etc.
 
 ## What if video is private and you don't want to send it or its audio outside your computer
