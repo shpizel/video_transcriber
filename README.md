@@ -14,6 +14,6 @@ And paid API such as Google/Amazon, etc.
 7. `vosk-transcriber -m vosk-model-en-us-0.22 -i your_file.wav -t srt -o your_file.srt` OR `vosk-transcriber -m vosk-model-ru-0.42 -i your_file.wav -t srt -o your_file.srt`
 ## How to make summary :)
 1. chatgpt
-  * give me the summary of following text ctrl+v
+    * give me the summary of following text ctrl+v
 2. google bard
-  * the same
+    * the same
