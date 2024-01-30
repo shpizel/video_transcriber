@@ -1,10 +1,10 @@
 # Video transcriber
 ## How to auto generate subtitles for your video?
 ### If it is public video
-You can send it to youtube and they use `subtitles` button or website like https://youtubetranscript.com (which uses this button).
-And paid API such as Google/Amazon, etc.
+* Youtube: you can send it (if it's not there) to youtube and then use `subtitles` button or website like https://youtubetranscript.com (which uses this button) to have transcribe
+* Not youtube: you can you paid API such as Google/Amazon, sending video them
 
-### What if video is private and you don't want to send it or its audio outside your computer
+### What if video is private and you don't want to send it anywhere
 1. ubuntu/wsl
 2. `sudo apt install ffmpeg`
 3. `ffmpeg -i your_file.mp4 -vn -acodec pcm_s16le -ar 44100 -ac 2 your_file.wav`
